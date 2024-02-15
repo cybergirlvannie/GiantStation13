@@ -228,13 +228,13 @@ GLOBAL_VAR_INIT(dynamic_chaos_level, 1.5)
 		if(50 to 64)
 			. += "<b>Uncharted Space</b></center><BR>"
 			. += "Congratulations and thank you for participating in the GATO 'Frontier' space program! Your station is actively orbiting a high value system far from the nearest support stations. Little is known about your region of space, and the opportunity to encounter the unknown invites greater glory. You are encouraged to elevate security as necessary to protect your lives and station assets."
-			if(GLOB.security_level < SEC_LEVEL_BLUE)
-				set_security_level(SEC_LEVEL_BLUE)
+			if(GLOB.security_level < SEC_LEVEL_YELLOW)
+				set_security_level(SEC_LEVEL_YELLOW)
 		if(65 to 89)
 			. += "<b>Black Orbit</b></center><BR>"
 			. += "As part of a mandatory security protocol, we are required to inform you that as a result of your orbital pattern directly behind an astrological body (oriented from our nearest observatory), your station will be under decreased monitoring and support. It is anticipated that your extreme location and decreased surveillance could pose security risks. Avoid unnecessary risks and attempt to keep yourselves in one piece."
-			if(GLOB.security_level < SEC_LEVEL_BLUE)
-				set_security_level(SEC_LEVEL_BLUE)
+			if(GLOB.security_level < SEC_LEVEL_YELLOW)
+				set_security_level(SEC_LEVEL_YELLOW)
 		if(90 to 100)
 			. += "<b>Impending Doom</b></center><BR>"
 			. += "Your station is somehow in the middle of hostile territory, in clear view of any enemy of the corporation. Your likelihood to survive is low, and station destruction is expected and almost inevitable. Secure any sensitive material and protect yourselves from any enemy you will come across. It is important that you at least try to maintain the station.<BR>"
@@ -248,8 +248,8 @@ GLOBAL_VAR_INIT(dynamic_chaos_level, 1.5)
 			. += G.get_report()
 
 	print_command_report(., "Central Command Status Summary", announce=FALSE)
-	if(GLOB.security_level >= SEC_LEVEL_BLUE)
-		priority_announce("A summary has been copied and printed to all communications consoles.", "Security level elevated.", 'sound/ai/intercept.ogg')
+	if(GLOB.security_level >= SEC_LEVEL_YELLOW)
+		priority_announce("A summary has been copied and printed to all communications consoles.", "Alert status elevated.", 'sound/ai/intercept.ogg')
 	else
 		priority_announce("A summary has been copied and printed to all communications consoles.") //STOP YELLING AT US COMPUTER LADY
 

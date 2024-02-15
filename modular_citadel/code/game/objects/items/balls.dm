@@ -55,7 +55,7 @@
 
 /obj/item/toy/tennis/yellow	//because yellow is hot I guess
 	name = "yellow tennis ball"
-	desc = "A yellow tennis ball. It seems to have a flame-retardant coating."
+	desc = "A yellow tennis ball. It seems to have a flame-resistant coating."
 	icon_state = "tennis_yellow"
 	item_state = "tennis_yellow"
 	resistance_flags = FIRE_PROOF

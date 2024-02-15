@@ -532,7 +532,7 @@
 		switch(security_num)
 			if(SEC_LEVEL_GREEN)
 				set_coefficient = 2
-			if(SEC_LEVEL_BLUE)
+			if(SEC_LEVEL_YELLOW)
 				set_coefficient = 1.2
 			if(SEC_LEVEL_AMBER)
 				set_coefficient = 0.8

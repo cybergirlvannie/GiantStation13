@@ -85,7 +85,8 @@
 		/datum/reagent/consumable/frostoil,
 		/datum/reagent/toxin/carpotoxin,
 		/datum/reagent/toxin/histamine,
-		/datum/reagent/medicine/morphine
+		/datum/reagent/medicine/morphine,
+		/datum/reagent/consumable/cornoil
 	)
 	var/list/recording_recipe
 

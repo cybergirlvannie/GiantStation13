@@ -1302,7 +1302,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 			TRAIT_BLOB,
 			TRAIT_IMMOBILE,
 			null,
-			FATNESS_LEVEL_BLOB,
+			FATNESS_LEVEL_FATTITAN,
 			INFINITY,
 			"<span class='notice'>You feel like you've regained some mobility!</span>",
 			null)
@@ -1314,7 +1314,7 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 			TRAIT_BARELYMOBILE,
 			TRAIT_BLOB,
 			FATNESS_LEVEL_IMMOBILE,
-			FATNESS_LEVEL_BLOB,
+			FATNESS_LEVEL_FATTITAN,
 			"<span class='notice'>You feel less restrained by your fat!</span>",
 			"<span class='danger'>You feel like you've become a mountain of fat!</span>")
 		return
@@ -1487,10 +1487,10 @@ GLOBAL_LIST_EMPTY(roundstart_races)
 
 
 	switch(H.fatness)
-		if(FATNESS_LEVEL_BLOB to INFINITY)
-			H.throw_alert("fatness", /obj/screen/alert/blob)
+		if(FATNESS_LEVEL_FATTITAN to INFINITY)
+			H.throw_alert("fatness", /obj/screen/alert/fattitan)
 
-		if(FATNESS_LEVEL_IMMOBILE to FATNESS_LEVEL_BLOB)
+		if(FATNESS_LEVEL_IMMOBILE to FATNESS_LEVEL_FATTITAN)
 			H.throw_alert("fatness", /obj/screen/alert/immobile)
 
 		if(FATNESS_LEVEL_BARELYMOBILE to FATNESS_LEVEL_IMMOBILE)

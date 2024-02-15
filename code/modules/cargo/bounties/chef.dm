@@ -104,7 +104,7 @@
 
 /datum/bounty/item/chef/kebab
 	name = "Kebabs"
-	description = "Remove all kebab from station you are best food. Ship to CentCom to remove from the premises."
+	description = "CentCom is having a kebab night. Please send us some to help out."
 	reward = 1500
 	required_count = 3
 	wanted_types = list(/obj/item/reagent_containers/food/snacks/kebab)

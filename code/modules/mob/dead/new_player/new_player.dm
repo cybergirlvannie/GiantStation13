@@ -457,14 +457,14 @@
 
 	var/level = "green"
 	switch(GLOB.security_level)
-		if(SEC_LEVEL_BLUE)
-			level = "blue"
+		if(SEC_LEVEL_YELLOW)
+			level = "yellow"
 		if(SEC_LEVEL_AMBER)
 			level = "amber"
 		if(SEC_LEVEL_RED)
 			level = "red"
-		if(SEC_LEVEL_DELTA)
-			level = "delta"
+		if(SEC_LEVEL_OMEGA)
+			level = "omega"
 
 	var/dat = "<div class='notice'>Round Duration: [DisplayTimeText(world.time - SSticker.round_start_time)]<br>Alert Level: [capitalize(level)]<br>Chaos Level: [GLOB.dynamic_chaos_level]</div>"
 

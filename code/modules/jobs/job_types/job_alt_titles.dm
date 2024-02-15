@@ -2,7 +2,7 @@
 
 //Engineering
 /datum/job/chief_engineer
-	alt_titles = list("Head Engineer", "Construction Coordinator", "Project Manager", "Power Plant Director")
+	alt_titles = list("Chief Engineering Officer", "Head Engineer", "Construction Coordinator", "Project Manager", "Power Plant Director")
 
 /datum/job/engineer
 	alt_titles = list("Maintenance Technician", "Engine Technician", "Electrician", "Structural Engineer", "Mechanic",  "Station Architect", "Nuclear Plant Operator")
@@ -32,7 +32,7 @@
 	alt_titles = list("Custodian", "Sanitation Technician", "Maid", "Trash Can", "Disposal Unit")
 
 /datum/job/lawyer
-	alt_titles = list("Human Resources Agent", "Internal Affairs Agent", "Attorney")
+	alt_titles = list("Human Resources Agent", "Internal Affairs Agent", "Attorney", "Barrister")
 	
 /datum/job/clown
 	alt_titles = list("Jester", "Comedian")
@@ -45,7 +45,7 @@
 
 //Science
 /datum/job/rd
-	alt_titles = list("Research Manager", "Science Administrator")
+	alt_titles = list("Chief Science Officer", "Research Manager", "Science Administrator")
 
 /datum/job/scientist
 	alt_titles = list("Circuitry Designer", "Xenobiologist", "Xenobotanist", "Xenoarcheologist", "Chemical Researcher", "Researcher", "Pyrotechnician")
@@ -60,7 +60,10 @@
 	alt_titles = list("Medical Director", "Medical Administrator")
 
 /datum/job/doctor
-	alt_titles = list("Nurse", "Surgeon", "Physician", "Paramedic", "Trophologist", "Nutritionist")
+	alt_titles = list("Nurse", "Surgeon", "Physician", "Trophologist", "Nutritionist", "General Practitioner", "Consultant")
+
+/datum/job/paramedic
+	alt_titles = list("Emergency Medical Technician", "Emergency care assistant")
 
 /datum/job/chemist
 	alt_titles = list("Pharmacist", "Pharmacologist")
@@ -75,10 +78,11 @@
 	alt_titles = list("Therapist", "Psychiatrist")
 
 /datum/job/junior_doctor
+	alt_titles = list("Foundation Doctor", "Medical Intern", "Resident Physician")
 
 //Security
 /datum/job/hos
-	alt_titles = list("Chief of Security", "Security Commander", "Sheriff")
+	alt_titles = list("Chief Security Officer", "Chief of Security", "Security Commander", "Sheriff")
 	
 /datum/job/warden
 	alt_titles = list("Prison Chief", "Armory Manager", "Prison Administrator", "Brig Superintendent")
@@ -93,7 +97,7 @@
 
 //Supply
 /datum/job/qm
-	alt_titles = list("Supply Chief")
+	alt_titles = list("Chief Operations Officer", "Supply Chief")
 
 /datum/job/cargo_tech
 	alt_titles = list("Mail Man", "Mail Woman", "Mailroom Technician", "Deliveries Officer", "Logistics Technician")
@@ -103,7 +107,7 @@
 
 //Command
 /datum/job/captain
-	alt_titles = list("Station Director", "Station Commander", "Station Overseer", "Stationmaster", "Commissar")
+	alt_titles = list("Station Director", "Station Commander", "Station Overseer", "Stationmaster", "Commissar", "Commanding Officer")
 
 /datum/job/hop
-	alt_titles = list("Personnel Manager", "Staff Administrator", "Records Administrator")
+	alt_titles = list("Personnel Manager", "Staff Administrator", "Records Administrator", "Executive Officer", "Number One")

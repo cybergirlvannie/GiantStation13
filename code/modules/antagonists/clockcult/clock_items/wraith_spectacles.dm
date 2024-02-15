@@ -33,7 +33,7 @@
 		var/mob/living/carbon/human/H = loc
 		if(src == H.glasses && !up)
 			if(HAS_TRAIT(H, TRAIT_BLIND))
-				to_chat(H, "<span class='heavy_brass'>\"You're blind, idiot. Stop embarrassing yourself.\"</span>")
+				to_chat(H, "<span class='heavy_brass'>\"You're blind. Stop embarrassing yourself.\"</span>")
 				return
 			if(blind_cultist(H))
 				return
@@ -77,7 +77,7 @@
 	if(slot != SLOT_GLASSES || up)
 		return
 	if(HAS_TRAIT(user, TRAIT_BLIND))
-		to_chat(user, "<span class='heavy_brass'>\"You're blind, idiot. Stop embarrassing yourself.\"</span>" )
+		to_chat(user, "<span class='heavy_brass'>\"You're blind. Stop embarrassing yourself.\"</span>" )
 		return
 	if(blind_cultist(user)) //Cultists instantly go blind
 		return

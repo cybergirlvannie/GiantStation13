@@ -36,7 +36,7 @@ Applications: 8 servants, 3 caches, and 100 CV
 	var/static/list/neovgre_penalty = list("Go to the station.", "Useless.", "Don't waste time.", "Pathetic.", "Wasteful.")
 	var/static/list/inathneq_penalty = list("Child, this is too far out!", "The barrier isn't thin enough for for me to help!", "Please, go to the station so I can assist you.", \
 	"Don't waste my Cogs on this...", "There isn't enough time to linger out here!")
-	var/static/list/sevtug_penalty = list("Fool! Get to the station and don't waste capacitors.", "You go this far out and expect help?", "The veil is too strong, idiot.", \
+	var/static/list/sevtug_penalty = list("Fool! Get to the station and don't waste capacitors.", "You go this far out and expect help?", "The veil is too strong.", \
 	"How does the Justicar get anything done with servants like you?", "Oh, you love wasting time, don't you?")
 	var/static/list/nezbere_penalty = list("You disgrace our master's name with this endeavour.", "This is too far from the station to be a good base.", "This will take too long, friend.", \
 	"The barrier isn't weakened enough to make this practical.", "Don't waste alloy.")

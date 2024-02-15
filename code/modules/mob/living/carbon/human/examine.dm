@@ -257,7 +257,7 @@
 	if(nutrition < NUTRITION_LEVEL_STARVING - 50)
 		msg += "[t_He] [t_is] severely malnourished.\n"
 
-	if(fatness >= FATNESS_LEVEL_BLOB)
+	if(fatness >= FATNESS_LEVEL_FATTITAN)
 		msg += "[t_He] [t_is] completely engulfed in rolls upon rolls of flab. [t_His] head is poking out on top of [t_His] body, akin to a marble on top of a hill.\n"
 
 	else if(fatness >= FATNESS_LEVEL_IMMOBILE)

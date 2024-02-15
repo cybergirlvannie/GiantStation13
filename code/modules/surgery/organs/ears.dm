@@ -45,7 +45,7 @@
 			SEND_SOUND(C, sound('sound/weapons/flash_ring.ogg'))
 			to_chat(C, "<span class='warning'>The ringing in your ears grows louder, blocking out any external noises for a moment.</span>")
 	else if((organ_flags & ORGAN_FAILING) && (deaf == 0))
-		deaf = 1	//stop being not deaf you deaf idiot
+		deaf = 1
 
 /obj/item/organ/ears/proc/restoreEars()
 	deaf = 0

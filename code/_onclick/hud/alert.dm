@@ -153,9 +153,9 @@
 
 //GS13 - fatness alerts
 
-/obj/screen/alert/blob
-	name = "Fatty Blob"
-	desc = "Every last piece of your corpulent body is now plush and bloated with vast rolls of blubber. Your corpulence is such that you are akin to a gigantic, towering wad of dough. Your thoughts are scattered, and the only thing in your mind is that you want to eat more and more"
+/obj/screen/alert/fattitan
+	name = "Titan of Fat"
+	desc = "Every last piece of your corpulent body is now plush and bloated with vast rolls of blubber. Your corpulence is such that you are akin to a gigantic, towering wad of dough. It's highly possible that your height may have grown to scale, making you a true titan. You're proud of this. Who's going to stop you? No-one can!"
 	icon_state = "blob"
 
 /obj/screen/alert/immobile

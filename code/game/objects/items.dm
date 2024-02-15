@@ -217,7 +217,7 @@ GLOBAL_VAR_INIT(rpg_loot_items, FALSE)
 		if(resistance_flags & FREEZE_PROOF)
 			. += "[src] is made of cold-resistant materials."
 		if(resistance_flags & FIRE_PROOF)
-			. += "[src] is made of fire-retardant materials."
+			. += "[src] is made of fire-resistant materials."
 
 	if(!user.research_scanner)
 		return

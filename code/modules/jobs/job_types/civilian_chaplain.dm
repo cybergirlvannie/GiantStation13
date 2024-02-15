@@ -70,7 +70,7 @@ Chaplain
 			B.name = "Guys Gone Wild"
 		if("lol", "wtf", "gay", "penis", "ass", "poo", "badmin", "shitmin", "deadmin", "cock", "cocks", "meme", "memes")
 			B.name = pick("Woodys Got Wood: The Aftermath", "War of the Cocks", "Sweet Bro and Hella Jef: Expanded Edition")
-			H.adjustOrganLoss(ORGAN_SLOT_BRAIN, 100) // starts off retarded as fuck
+			H.adjustOrganLoss(ORGAN_SLOT_BRAIN, 100)
 		if("drones", "drone", "760")
 			B.name = pick("The Lost Drone Scrolls: A theory on Drone sentience", "The Tragedy of Drone 760 the Ascended")
 		if("science")

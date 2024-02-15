@@ -92,7 +92,7 @@
 	if(istype(target, /mob/living))
 		var/mob/living/victim = target
 		if(istype(victim, /mob/living/carbon/human))
-			if(user.zone_selected == "groin") // pp smol. There's probably a smarter way to do this but im retarded. If you have a simpler method let me know.
+			if(user.zone_selected == "groin") // pp smol. There's probably a better way to do this.
 				var/list/organs = victim.getorganszone("groin")
 				for(var/internal_organ in organs)
 					if(istype(internal_organ, /obj/item/organ/genital/penis))

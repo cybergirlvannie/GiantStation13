@@ -28,6 +28,7 @@
 #define JR_DOCTOR       (1<<7)
 #define JR_SCIENTIST    (1<<9)
 #define MED_PSYCH       (1<<14)
+#define PARAMEDIC       (1<<15)
 
 
 #define CIVILIAN		(1<<2)

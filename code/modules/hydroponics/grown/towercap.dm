@@ -307,7 +307,7 @@
 	for(var/A in current_location)
 		if(A == src)
 			continue
-		else if(isliving(A)) //It's still a fire, idiot.
+		else if(isliving(A))
 			var/mob/living/L = A
 			L.adjust_fire_stacks(fire_stack_strength)
 			L.IgniteMob()

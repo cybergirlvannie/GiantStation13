@@ -148,7 +148,7 @@
 			name = "pen"
 			icon = 'icons/obj/bureaucracy.dmi'
 			icon_state = "pen"
-			desc = "It's a black ink pen, modified for use with both paper and Nanotransen-brand Digital-Readpads™!"
+			desc = "It's a black ink pen, modified for use with both paper and GATO-brand Digital-Readpads™!"
 		if(41 to 50)
 			name = "newspaper"
 			desc = "An issue of The Catpaw, the newspaper circulating aboard GATO stations."

@@ -1301,7 +1301,7 @@
 /obj/item/toy/figure/janitor
 	name = "Janitor action figure"
 	icon_state = "janitor"
-	toysay = "Look at the signs, you idiot."
+	toysay = "Look at the signs!"
 
 /obj/item/toy/figure/lawyer
 	name = "Lawyer action figure"

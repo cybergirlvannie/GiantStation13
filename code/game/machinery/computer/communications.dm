@@ -105,8 +105,8 @@
 						tmp_alertlevel = SEC_LEVEL_GREEN
 					if(tmp_alertlevel < SEC_LEVEL_GREEN)
 						tmp_alertlevel = SEC_LEVEL_GREEN
-					if(tmp_alertlevel == SEC_LEVEL_BLUE)
-						tmp_alertlevel = SEC_LEVEL_BLUE
+					if(tmp_alertlevel == SEC_LEVEL_YELLOW)
+						tmp_alertlevel = SEC_LEVEL_YELLOW
 					if(tmp_alertlevel > SEC_LEVEL_AMBER)
 						tmp_alertlevel = SEC_LEVEL_AMBER //Cannot engage delta with this
 					set_security_level(tmp_alertlevel)
@@ -390,8 +390,8 @@
 				tmp_alertlevel = SEC_LEVEL_GREEN
 			if(tmp_alertlevel < SEC_LEVEL_GREEN)
 				tmp_alertlevel = SEC_LEVEL_GREEN
-			if(tmp_alertlevel == SEC_LEVEL_BLUE)
-				tmp_alertlevel = SEC_LEVEL_BLUE
+			if(tmp_alertlevel == SEC_LEVEL_YELLOW)
+				tmp_alertlevel = SEC_LEVEL_YELLOW
 			if(tmp_alertlevel > SEC_LEVEL_AMBER)
 				tmp_alertlevel = SEC_LEVEL_AMBER //Cannot engage delta with this
 			set_security_level(tmp_alertlevel)
@@ -549,11 +549,11 @@
 			playsound(src, 'sound/machines/terminal_prompt_confirm.ogg', 50, 0)
 		if(STATE_ALERT_LEVEL)
 			dat += "Current alert level: [get_security_level()]<BR>"
-			if(GLOB.security_level == SEC_LEVEL_DELTA)
+			if(GLOB.security_level == SEC_LEVEL_OMEGA)
 				dat += "<font color='red'><b>The self-destruct mechanism is active. Find a way to deactivate the mechanism to lower the alert level or evacuate.</b></font>"
 			else
 				dat += "<A HREF='?src=[REF(src)];operation=securitylevel;newalertlevel=[SEC_LEVEL_AMBER]'>Amber</A><BR>"
-				dat += "<A HREF='?src=[REF(src)];operation=securitylevel;newalertlevel=[SEC_LEVEL_BLUE]'>Blue</A><BR>"
+				dat += "<A HREF='?src=[REF(src)];operation=securitylevel;newalertlevel=[SEC_LEVEL_YELLOW]'>Blue</A><BR>"
 				dat += "<A HREF='?src=[REF(src)];operation=securitylevel;newalertlevel=[SEC_LEVEL_GREEN]'>Green</A>"
 		if(STATE_CONFIRM_LEVEL)
 			dat += "Current alert level: [get_security_level()]<BR>"
@@ -692,11 +692,11 @@
 
 		if(STATE_ALERT_LEVEL)
 			dat += "Current alert level: [get_security_level()]<BR>"
-			if(GLOB.security_level == SEC_LEVEL_DELTA)
+			if(GLOB.security_level == SEC_LEVEL_OMEGA)
 				dat += "<font color='red'><b>The self-destruct mechanism is active. Find a way to deactivate the mechanism to lower the alert level or evacuate.</b></font>"
 			else
 				dat += "<A HREF='?src=[REF(src)];operation=ai-securitylevel;newalertlevel=[SEC_LEVEL_AMBER]'>Amber</A><BR>"
-				dat += "<A HREF='?src=[REF(src)];operation=ai-securitylevel;newalertlevel=[SEC_LEVEL_BLUE]'>Blue</A><BR>"
+				dat += "<A HREF='?src=[REF(src)];operation=ai-securitylevel;newalertlevel=[SEC_LEVEL_YELLOW]'>Blue</A><BR>"
 				dat += "<A HREF='?src=[REF(src)];operation=ai-securitylevel;newalertlevel=[SEC_LEVEL_GREEN]'>Green</A>"
 
 		if(STATE_TOGGLE_EMERGENCY)

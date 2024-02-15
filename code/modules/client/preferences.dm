@@ -2641,7 +2641,7 @@ GLOBAL_LIST_EMPTY(preferences_datums)
 							if("Barely Mobile")
 								max_weight = FATNESS_LEVEL_IMMOBILE
 							if("Immobile")
-								max_weight = FATNESS_LEVEL_BLOB
+								max_weight = FATNESS_LEVEL_FATTITAN
 
 				if("inflatable_belly")
 					features["inflatable_belly"] = !features["inflatable_belly"]

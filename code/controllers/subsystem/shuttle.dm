@@ -222,7 +222,7 @@ SUBSYSTEM_DEF(shuttle)
 	var/emergency_reason = "\nNature of emergency:\n\n[call_reason]"
 	var/security_num = seclevel2num(get_security_level())
 	switch(security_num)
-		if(SEC_LEVEL_RED,SEC_LEVEL_DELTA)
+		if(SEC_LEVEL_RED,SEC_LEVEL_OMEGA)
 			emergency.request(null, signal_origin, html_decode(emergency_reason), 1) //There is a serious threat we gotta move no time to give them five minutes.
 		else
 			emergency.request(null, signal_origin, html_decode(emergency_reason), 0)
@@ -287,7 +287,7 @@ SUBSYSTEM_DEF(shuttle)
 		if(SEC_LEVEL_GREEN)
 			if(emergency.timeLeft(1) < emergencyCallTime)
 				return
-		if(SEC_LEVEL_BLUE)
+		if(SEC_LEVEL_YELLOW)
 			if(emergency.timeLeft(1) < emergencyCallTime * 0.6)
 				return
 		if(SEC_LEVEL_AMBER)
