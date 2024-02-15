@@ -6,10 +6,10 @@
 
 /datum/round_event_control/valentines
 	name = "Valentines!"
-	holidayID = VALENTINES
+	//holidayID = VALENTINES -- No. Why. Why. Nu-uh.
 	typepath = /datum/round_event/valentines
-	weight = -1							//forces it to be called, regardless of weight
-	max_occurrences = 1
+	weight = 0
+	max_occurrences = 0
 	earliest_start = 0 MINUTES
 
 /datum/round_event/valentines/start()
