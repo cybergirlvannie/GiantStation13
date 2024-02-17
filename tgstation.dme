@@ -3086,6 +3086,8 @@
 #include "GainStation13\code\mechanics\spells.dm"
 #include "GainStation13\code\mechanics\wand.dm"
 #include "GainStation13\code\mechanics\web_weaving.dm"
+#include "GainStation13\code\mechanics\den_transporter\console.dm"
+#include "GainStation13\code\mechanics\den_transporter\purchaseble_goodies.dm"
 #include "GainStation13\code\mobs\cakegolem.dm"
 #include "GainStation13\code\mobs\chocoslime.dm"
 #include "GainStation13\code\mobs\races\caloritegolem.dm"
