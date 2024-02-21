@@ -155,13 +155,13 @@
 	/// How much credits do we currently have?
 	var/credits = 0
 	/// How many credits are we going to reward per pound gained?
-	var/credits_per_fatness = 1 
+	var/credits_per_fatness = 10 
 	/// A list containing all of the people we've scanned and their maximum weight.
 	var/list/scanned_people = list()
 	/// What is the current team number?
 	var/team_number = 27
 	/// What is the maximum ammount of credits that can be gained per person?
-	var/maximum_credits = 900 // A little bit over the fattness for blob.
+	var/maximum_credits = 9000 // A little bit over the fattness for blob.
 
 /obj/structure/scale/credits/Initialize(mapload)
 	..()

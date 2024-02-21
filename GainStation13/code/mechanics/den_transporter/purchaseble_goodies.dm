@@ -27,13 +27,11 @@
 	name = "Fatbeam gun"
 	credit_cost = 400
 	item_to_dispense = /obj/item/gun/fatbeam
-	initial_stock = 2
 
 /datum/feeders_den_goodie/grenade_weak
 	name = "Lipofier Grenade (Weak)"
 	credit_cost = 120
 	item_to_dispense = /obj/item/grenade/chem_grenade/lipoifier_weak
-	initial_stock = 6
 
 /datum/feeders_den_goodie/grenade_strong
 	name = "Lipofier Grenade (Strong)"
@@ -45,19 +43,16 @@
 	name = "Chameleon Kit"
 	credit_cost = 300
 	item_to_dispense = /obj/item/storage/box/syndie_kit/chameleon
-	initial_stock = 2
 
 /datum/feeders_den_goodie/pie_cannon
 	name = "Banana Cream Pie Cannon"
 	credit_cost = 500
 	item_to_dispense = /obj/item/pneumatic_cannon/pie/selfcharge
-	initial_stock = 2
 
 /datum/feeders_den_goodie/thermals
 	name = "Thermal Imaging Glasses"
 	credit_cost = 400
 	item_to_dispense = /obj/item/clothing/glasses/thermal/syndi
-	initial_stock = 2
 
 /datum/feeders_den_goodie/reagent_gun
 	name = "Reagent Gun"
@@ -68,4 +63,3 @@
 	name = "R&D Kit"
 	credit_cost = 1500
 	item_to_dispense = /obj/item/storage/box/rndboards
-	initial_stock = 2
