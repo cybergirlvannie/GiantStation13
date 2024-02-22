@@ -9,7 +9,7 @@
 	var/item_to_dispense
 
 /datum/feeders_den_goodie/emagrecharge
-	name: "Electromagnet Charging Device"
+	name = "Electromagnet Charging Device"
 	credit_cost = 10
 	item_to_dispense = /obj/item/emagrecharge
 	
