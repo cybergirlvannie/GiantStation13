@@ -227,7 +227,7 @@
 
 	if(target == marked)
 		to_chat(user, "<span class='notice'>You begin to teleport [target]...</span>")
-		if(!do_after(user, 45 SECONDS, target = target)) // You have to be standing still for a while
+		if(!do_after(user, 5 SECONDS, target = target)) // You have to be standing still for a while
 			return FALSE
 
 		console?.pad.Retrieve(marked)
