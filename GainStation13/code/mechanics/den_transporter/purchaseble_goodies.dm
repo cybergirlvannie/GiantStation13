@@ -8,6 +8,16 @@
 	/// What is the path of the item to dispense?
 	var/item_to_dispense
 
+/datum/feeders_den_goodie/emagrecharge
+	name: "Electromagnet Charging Device"
+	credit_cost = 10
+	item_to_dispense = /obj/item/emagrecharge
+	
+/datum/feeders_den_goodie/emag
+	name = "Cryptographic Sequencer"
+	credit_cost = 50
+	item_to_dispense = /obj/item/card/emag
+
 /datum/feeders_den_goodie/food_vendor_refill
 	name = "Food Vendor Refill"
 	credit_cost = 100
