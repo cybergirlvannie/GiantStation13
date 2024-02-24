@@ -5,8 +5,8 @@
 	info = "It took so long for me to make this hideout, but it might all be in vain. In the short breaks when I'm not observed, I'm trying to fix this radio I managed to sneak by... but judging by how I can barely squeeze my ass past this stupid hole less and less each day, I might not fix it in time..."
 
 /obj/item/paper/fluff/ruins/feeder_den/report1
-	name = "Captive report No 1"
-	info = "We've managed to obtain two captives - one woman, and one lizard. They seem promising so far... already quite chunky and eager to scarf down whatever we give them. It might be even easier to turn them into proper beds once we're past the chemical treatment."
+	name = "Personal log 1"
+	info = "I picked up a couple of people today, a regular human woman, and a transgender catgirl. I'll spare the obvious about the trend of transgender cats. Anyway, the feline seems to be very eager to be a fat titaness, I'd say! She's eating a lot and drinking enough lipofier that I had to upgrade some of the machines to handle it!"
 
 /obj/item/paper/fluff/ruins/feeder_den/report2
 	name = "Captive report No 2"
@@ -40,7 +40,7 @@
 	Additionally, if you have someone to help you, they can beam up anyone that is marked, by using the camera console.\
 	<br><br>\
 	Credits can be gained by having someone you fattened up use the tracking scale. Keep in mind that credits can only be gained when someone surpasses their previous max weight.\
-	Additionally, you are only able to get 900 credits from a person.\
+	Additionally, you are only able to get 9000 credits from a person.\
 	<br><br>\
 	You are able to use the console and pad to send victims back to the station after you are done with them. Avoid sending them anywhere dangerous or obvious unless you want to risk the ire of GATO. "
 	
